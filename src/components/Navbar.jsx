@@ -44,8 +44,8 @@ export default function Navbar({ state }) {
 
     return (
         <motion.div
-            className="navbar-container fixed top-0 left-[10px] right-[10px] 
-             flex flex-row rounded-lg shadow-[4px_2px_20px_5px_rgba(0,0,0,0.25)] bg-white/90 backdrop-blur-md"
+            className="navbar-container fixed top-0 left-[16px] right-[31px] 
+             flex flex-row rounded-lg shadow-[4px_2px_20px_10px_rgba(0,0,0,0.25)] bg-white/90 backdrop-blur-md"
   whileHover={{ backgroundColor: "rgba(100,200,100,1)" }}
             
         // transition={{ ease: "easeInOut", duration: 0.2 }}

@@ -1,12 +1,14 @@
 import './App.css';
 import Map from './components/Map/map';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="app-container">
-      <header>
-        <p>navbar</p>
-      </header>
+      <div className="z-20">
+        <Navbar state="authority_logged_in"/>
+      </div>
+      
 
       <div className="map-wrapper">
         <div style={{ width: '100%', height: '1000px' }}>
